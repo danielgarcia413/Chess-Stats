@@ -80,8 +80,8 @@ because I'm tryna learn Golang, but honestly given that we are using an API wrap
 javascript/typescript and choose one of the many frameworks that they got over there.
 
 2. Features?
-
 Self explanatory, I'mma leave this blank for if you have any ideas that you tryna add and shit like that. 
+
 -
 -
 -
