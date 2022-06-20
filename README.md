@@ -104,3 +104,11 @@ for the future. I'll add more info later so that we make a mroe informed choice.
 
 1. Download the ASP.net SDK from [here](https://dotnet.microsoft.com/en-us/learn/aspnet/hello-world-tutorial/install). This guide should have everything you need so just follow it.
 2. After running the installer and installing .NET, you should be good to go. Now you just need to clone this repo. 
+3. Download [VSCode](https://code.visualstudio.com/download) if you haven't already. It's probably the best program to use when coding anything really, and it has an extension so we can both code like google docs. 
+4. Open VS code and click on the extensions icon on the left. It should be four squares looking thing. Look up Live Share and install it. It'll basically let us code at the same time.![image](https://user-images.githubusercontent.com/67721635/174679757-78352721-1bf6-45b4-99a2-a84a2ede34a5.png)
+5. Open up the computer terminal and run these commands in order so that you can copy all the code we got onto your computer. You boutta learn hella about github if you don't know already. 
+
+- `cd Documents` This is just to put the code in a folder in your documents.
+- `New-Item -Path . -Name "chess-app" -ItemType "directory"` This will just make a new folder in your documents folder so that everything can be kept in one place. 
+- `git clone https://github.com/danielgarcia413/Chess-Stats.git` This will copy allll of the code we have so far into the directory you made with the steps above. Now you ready to get started.
+
