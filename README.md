@@ -19,26 +19,26 @@ for convenience.
     - Grabs info like player id, status (they pay premium or not), avatar, is streamer, etc. Useful for making app look official
 - `getPlayerStats(username, options, callback)`
     - This is gonna be the most useful method for sure. This function pulls stats for all time settings, their raiting on lessons, puzzles, tactics, you name it. 
--`getPlayerMonthlyArchives(username, options, callback)`
+- `getPlayerMonthlyArchives(username, options, callback)`
     - This method will give us a list of URLs that link us 
     to a list of games played by that user for every month that is available. 
     
--`getPlayerCompleteMonthlyArchives(username, year, month, options, callback)`
+- `getPlayerCompleteMonthlyArchives(username, year, month, options, callback)`
     - This method will be hella useful when implementing our idea of assigning each player a play style. This method returns an array of URLs to a player's played games for a given month. Shows all moves and everything.
     - There is an option to download the data in PGN format, in which case we would use [this](https://www.chess.com/news/view/published-data-api#pubapi-endpoint-games-pgn) method to grab the data. 
--`getPlayerClubs(username, options, callback)`
+- `getPlayerClubs(username, options, callback)`
     - Method returns all the clubs that a player is part of, could be useful down the line for something. 
--`getPlayerTournaments(username, options, callback)`
+- `getPlayerTournaments(username, options, callback)`
     - This one is hella interesting, we could see all the tournaments that a player was a part of or will be a part of and will be a part of. Could be useful game data. 
--`getTournament(urlID, options, callback)` 
+- `getTournament(urlID, options, callback)` 
     - Method can get us details about any given tournament. Pretty self explanatory 
--`getCountryPlayers(iso, options, callback)`
+- `getCountryPlayers(iso, options, callback)`
     - Grabs all the players from a given country. Could be dope to compare all countries and see who's on top. 
--`getStreamers(options, callback)`
+- `getStreamers(options, callback)`
     - Grabs all players that are registered chess.com streamers. 
--`getLeaderboards(options, callback)`
+- `getLeaderboards(options, callback)`
     - Grabs top 50 players for games, tactics, and lessons. Could be useful to compare stats to user. 
--`getTitledPlayers(titleAbbrev, options, callback)`
+- `getTitledPlayers(titleAbbrev, options, callback)`
     - This method in particular is really cool. This will give us a list of players that are grandmasters, international masters, etc. 
 
 ## Decisions, decisions
