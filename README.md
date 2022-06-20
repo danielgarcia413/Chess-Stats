@@ -99,3 +99,8 @@ for the future. I'll add more info later so that we make a mroe informed choice.
 - Heroku
 - Azure
 - Google Cloud
+
+## Pre-Requisites
+
+1. Download the ASP.net SDK from [here](https://dotnet.microsoft.com/en-us/learn/aspnet/hello-world-tutorial/install). This guide should have everything you need so just follow it.
+2. After running the installer and installing .NET, you should be good to go. Now you just need to clone this repo. 
