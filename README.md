@@ -71,7 +71,7 @@ want practice in/want to learn to choose what language/framework we use. I'll li
     so much better. I wouldn't mind using this framework but I'd also be down for something new. 
 - C#
     - If you want something most similar to C++ this is your language ig. Never coded in it but it's basically the same as C++. 
-    -.NET: Very popular framework to code in, maybe a little difficult to learn since C# is a little more complex to code in than other
+    - .NET: Very popular framework to code in, maybe a little difficult to learn since C# is a little more complex to code in than other
     languages on this list. Developed by Microsoft if that has any weight to you. 
 
 
